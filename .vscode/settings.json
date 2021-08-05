@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "PrimitiveTypesChanllenge/src",
         "HelloWorld/src",
+        "FloatAndDouble/src",
         "ByteShortIntLong/src",
-        "FloatAndDouble/src"
+        "CharAndBoolean/src"
     ]
 }
