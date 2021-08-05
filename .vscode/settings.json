@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "HelloWorld/src",
-        "ByteShortIntLong/src"
+        "ByteShortIntLong/src",
+        "PrimitiveTypesChanllenge/src"
     ]
 }
