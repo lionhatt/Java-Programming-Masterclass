@@ -48,5 +48,45 @@ public class App {
             System.out.println(" And i am scared of aliens");
         }
 
+        int topScore = 80;
+        if (topScore < 100) {
+            System.out.println("You got the high score!");
+        }
+
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are ture");
+        }
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        } 
+
+        boolean isCar = false;
+        if (isCar) {
+            System.out.println("this is not supporsed to happen");
+        }
+        
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+        double myFirstValue = 20.00;
+        double mySecondValue = 80.00;
+        double myValuesTotal = (myFirstValue + mySecondValue) * 100.00;
+        double theReminder = myValuesTotal % 40.00;
+        boolean isNoReminder = (theReminder == 0) ? true : false;
+        System.out.println("isNoReminder" + isNoReminder);
+        if (!isNoReminder) {
+            System.out.println("Got some reainder");
+        }
+
     }
 }
