@@ -1,7 +1,10 @@
 public class App {
+
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
     public static void main(String[] args) throws Exception {
         System.out.println(getDurationString(65, 45));
         System.out.println(getDurationString(3945L));
+        System.out.println(getDurationString(-41));
         
     }
 
@@ -15,7 +18,7 @@ public class App {
             }           
             return hours + "h "+ minutes+"m "+seconds +"s";
         }
-        return "Invalid value";
+        return INVALID_VALUE_MESSAGE;
     }
 
     private static String getDurationString(long seconds) {
@@ -27,6 +30,6 @@ public class App {
             }
             return getDurationString(minutes, seconds);
         }
-        return "Invalid value";
+        return INVALID_VALUE_MESSAGE;
     }
 }
